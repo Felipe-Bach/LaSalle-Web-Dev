@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica;
+
+}
+.header {
+	display: flex;
+	align-items:center;
+	justify-content: center;
+    border: 3px solid #990000;
+    margin-right: auto;
+	margin-left: auto;	
+   	width: 70%;
+
+}
+.header h1{
+	font-size: 20;
+	color:  darkred;
+}
+.header img {
+  width: 200px;
+  height: 100px;
+  background: #555;
+  margin-right: 40px;
+}
+
+.subheader h2{
+	font-size: 15;
+	text-align: justify;
+	padding: 25px 50px 25px 50px;
+	margin-top: 75px;
+	background-color: ghostwhite;
+	width: 70%;
+    margin-right: auto;
+	margin-left: auto;	
+	float: center;
+}
+
+table {
+	margin-top: 75px;
+    border: 3px solid #990000;
+    margin-bottom: 75px;
+    border-collapse: collapse;
+    margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+
+th {
+	border: 1px solid black;
+    border-collapse: collapse;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.box{
+	float:  center;
+	position: relative;
+	width: 70%;	
+	padding: 10px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.title{
+	background-color: red;
+	padding: 5px;
+	position: relative;
+	top: 0px;
+	border: 1px solid black;
+	font-size: 20px;
+	background-color: darkred;
+	color: white;
+}
+.row{
+	background-color: lightgrey;
+	position: relative;
+	padding-top: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	text-align: justify;
+	text-justify: inter-word;
+	border: 1px solid black;
+	font-size: 15px;
+	color: black;
+}
+
